@@ -1,0 +1,14 @@
+nav {
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+
+        li {
+            font-family: "Roboto", sans-serif;
+            display: inline-block;
+            font-weight: bold;
+
+        }
+    }
+}
