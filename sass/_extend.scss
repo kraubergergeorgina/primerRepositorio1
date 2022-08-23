@@ -1,0 +1,23 @@
+.extendprobando{
+    color: greenyellow;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin: 4px;
+}
+
+.diseño{
+    @extend .extendprobando;
+    font-size: 30px;
+    color: red;
+}
+
+@mixin sizes ($width,$height){
+    height: $height;
+    width: $width;
+}
+
+.diseño{
+    @include sizes (500px, 50px);
+    background-color: blueviolet; 
+}

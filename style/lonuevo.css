@@ -1,24 +1,33 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital,wght@1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
 }
 
-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-}
-nav ul li {
-  font-family: "Roboto", sans-serif;
-  display: inline-block;
-  font-weight: bold;
-}
-
 .animacion:hover {
   transform: scale(2);
+}
+
+.extendprobando, .diseño {
+  color: greenyellow;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  text-align: center;
+  margin: 4px;
+}
+
+.diseño {
+  font-size: 30px;
+  color: red;
+}
+
+.diseño {
+  height: 50px;
+  width: 500px;
+  background-color: blueviolet;
 }
 
 body {
