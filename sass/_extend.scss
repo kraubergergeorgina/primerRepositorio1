@@ -18,6 +18,7 @@
 }
 
 .diseño{
-    @include sizes (500px, 50px);
-    background-color: blueviolet; 
+    @include sizes (auto, auto);
+    background-color: blueviolet;
+    width: 50%;
 }
